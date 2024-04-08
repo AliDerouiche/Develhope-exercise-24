@@ -11,6 +11,7 @@ public class firstQuestion {
 
     @GetMapping(path = "/ciao")
     public String hwd(@RequestParam String nome, @RequestParam String provincia) {
-        return "Ciao " + nome + ", com'è il tempo in " + provincia + " ?" ;
+        return "Ciao " + nome + ", com'è il tempo in " + provincia + " ?";
     }
+
 }
